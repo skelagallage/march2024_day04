@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/UCSC/march2024_day04">
+        <classes>
+            <class name="com.ucsc.automationcc.ClassOne">
+                <methods>
+                    <include name="method1"/>
+                    <exclude name="method2"/>
+                    <include name="method3"/>
+                </methods>
+            </class>
+            <class name="com.ucsc.automationcc.ClassTwo">
+                <methods>
+                    <include name="method2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

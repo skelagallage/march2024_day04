@@ -1,0 +1,37 @@
+2024-03-30
+ebay.com
+#Basic xpath
+//input[@id='gh-btn']
+
+facebook -> create new account
+#and
+//input[@type='text' and @name='firstname']
+
+https://demoqa.com/automation-practice-form
+#text()
+//label[text()='Email']
+
+#parent/../child
+//label[text()='Email']/../../div/input
+
+#remove the set of the middle of html elements
+#eg //label[text()='smt']/div/div/div/div/input <- instead of
+#use -> //label[text()='smt]//input
+//label[text()='Email']/../..//input
+
+ebay.com
+//* all html elements
+//*[@*] all html elements with at least one html attribute
+
+#contains
+//a[contains(text(), 'Collectibles')]
+//input[contains(@class, 'btn-prim')]
+
+https://demoqa.com/automation-practice-form
+#parent
+#following-sibling
+#child
+//label[text()='Email']/parent::*/following-sibling::div/child::input
+
+#preceding-sibling
+#ancestor
